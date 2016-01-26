@@ -19,6 +19,11 @@ The basic goal of this assignment was to explore the NOAA Storm Database and ans
 The data had to be preprocessed prior to conducting the actual analysis, and prior to determining the answers to the questions. Preprocessing involved ensuring that NAs (no value) were converted to zeros.  Additionally, the data had to be aggregated by 
 the event type (EVTYPE) as well, so there are functions in the preprocessing that do that as well.
 
+The data analysis addressed the following questions:
+
+1. Across the U.S., which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
+2. Across the U.S., which types of events have the greatest economic consequences? 
+
 
 #### Libraries Used in this Analysis
 
@@ -33,17 +38,8 @@ Detailed Documentation here:  https://d396qusza40orc.cloudfront.net/repdata%2Fpe
 
 Data Set here: https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2
 
-The data set file, when extracted, is about 500Mb.  Loading the file upon first running the script takes time, so please
+The data set file, when extracted, is about 400Mb.  Loading the file upon first running the script takes time, so please
 be patient.
-
-
-#### Data Analysis and Questions in this Study
-
-The data analysis addressed the following questions:
-
-1. Across the U.S., which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
-2. Across the U.S., which types of events have the greatest economic consequences? 
-
 
 # Data Processing
 

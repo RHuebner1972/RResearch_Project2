@@ -78,6 +78,11 @@ img {
 <h1>Introduction &amp; Synopsis</h1>
 <p>The basic goal of this assignment was to explore the NOAA Storm Database and answer some basic questions about severe weather events. Data is from the National Weather Service storm data, and is available here. The data contains the occurrence of storms and other significant weather phenomena having sufficient intensity to cause loss of life, injuries, property damage, etc. The analysis uses the Storm database to answer the questions listed below. All code and processing steps are shown below, along with the results. The data is processed to standarize/normalize some of the values.</p>
 <p>The data had to be preprocessed prior to conducting the actual analysis, and prior to determining the answers to the questions. Preprocessing involved ensuring that NAs (no value) were converted to zeros. Additionally, the data had to be aggregated by the event type (EVTYPE) as well, so there are functions in the preprocessing that do that as well.</p>
+<p>The data analysis addressed the following questions:</p>
+<ol style="list-style-type: decimal">
+<li>Across the U.S., which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?</li>
+<li>Across the U.S., which types of events have the greatest economic consequences?</li>
+</ol>
 <div id="libraries-used-in-this-analysis" class="section level4">
 <h4>Libraries Used in this Analysis</h4>
 <p>The following libraries are used in the analysis.</p>
@@ -87,15 +92,7 @@ img {
 <h4>Data Set Information</h4>
 <p>Detailed Documentation here: <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf">https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf</a></p>
 <p>Data Set here: <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2">https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2</a></p>
-<p>The data set file, when extracted, is about 500Mb. Loading the file upon first running the script takes time, so please be patient.</p>
-</div>
-<div id="data-analysis-and-questions-in-this-study" class="section level4">
-<h4>Data Analysis and Questions in this Study</h4>
-<p>The data analysis addressed the following questions:</p>
-<ol style="list-style-type: decimal">
-<li>Across the U.S., which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?</li>
-<li>Across the U.S., which types of events have the greatest economic consequences?</li>
-</ol>
+<p>The data set file, when extracted, is about 400Mb. Loading the file upon first running the script takes time, so please be patient.</p>
 </div>
 </div>
 <div id="data-processing" class="section level1">
